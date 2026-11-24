@@ -231,3 +231,5 @@ This reviewed snapshot excludes the runtime images link and data. Personal email
 ## Private GitHub repository (2026-11-17)
 
 A public, reviewed source snapshot is available at `https://github.com/Noxist/rootserver-printer` on `main`. The publication checkout is separate from the live working copy. Runtime data, secrets and other private material are excluded; any substituted placeholders and deployment limitations are documented in the repository. For updates review each changed file, run relevant isolated checks and secret scanning, push only a fast-forward, and verify the GitHub commit and tree. Do not overwrite or merge the live working history.
+
+2026-11-24: The production origin identifies this sanitized repository; the live checkout has an independent Git history and no upstream. Use a separate checkout for development, review and scan each change, and push fast-forward only. Never merge or push the live checkout history into this public snapshot.
