@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and runtime credentials. Keep example templates trackable.
+.env
+.env.*
+!.env.example
+!.env.sample
+runtime.env
+credentials.json
+*.key
+*.pem
+
+# Runtime artifacts
+*.log
+data/
+
+# Publication safety exclusions (2026-11-17)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+*.p12
+*.pfx
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.jsonl
+secrets/
+.auth/
+backups/
+images
+
+# Additional credential filename exclusions (2026-11-17)
+*.env
+credentials.json
+token.json
+auth_session.json

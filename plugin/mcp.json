@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "thermodrucker": {
+      "transport": "streamable-http",
+      "url": "https://printer.nox007.tech/mcp",
+      "authorization": {
+        "type": "oauth2",
+        "authorization_endpoint": "https://thegroupofnox.cloudflareaccess.com/cdn-cgi/access/oauth/authorization",
+        "token_endpoint": "https://thegroupofnox.cloudflareaccess.com/cdn-cgi/access/oauth/token"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Thermodrucker",
+  "name_for_model": "thermodrucker",
+  "description_for_human": "Drucke schön gestaltete Texte, Tagespläne, Tickets und Bilder direkt auf dem privaten Thermodrucker. Emojis und QR-Codes werden unterstützt.",
+  "description_for_model": "Private plugin for printing well-structured text tickets, daily plans, receipts, images, QR codes, and multi-ticket batches on a physical thermal receipt printer. Emoji are rendered as monochrome artwork. For daily plans use a clear title/date and section headings; represent actionable tasks as individual todo blocks with unchecked boxes unless completion is known, and use text blocks for appointments or travel. The renderer adds a static X von Y completion count for checklists. Add dividers or spacers between sections and encode supplied links in QR blocks. Preview complex layouts before printing. Allows querying printer status and job status.",
+  "auth": {
+    "type": "oauth",
+    "client_url": "https://thegroupofnox.cloudflareaccess.com/cdn-cgi/access/oauth/authorization",
+    "scope": "openid email profile",
+    "authorization_url": "https://thegroupofnox.cloudflareaccess.com/cdn-cgi/access/oauth/token",
+    "authorization_content_type": "application/x-www-form-urlencoded"
+  },
+  "api": {
+    "type": "streamable-http",
+    "url": "https://printer.nox007.tech/mcp"
+  },
+  "logo_url": "https://printer.nox007.tech/static/logo.png",
+  "contact_email": "account-2@example.invalid",
+  "legal_info_url": "https://printer.nox007.tech/legal"
+}
